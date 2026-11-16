@@ -1,25 +1,14 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "description": "Portfolio de Juan David Carreño Arias",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/riwi-org/portfolio.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/riwi-org/portfolio/issues"
-  },
-  "homepage": "https://github.com/riwi-org/portfolio#readme",
-  "dependencies": {
-    "@tailwindcss/cli": "^4.3.5",
-    "tailwindcss": "^4.3.5"
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.0",
+    "tailwindcss": "^4.0.0"
   }
 }
