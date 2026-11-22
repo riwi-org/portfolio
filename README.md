@@ -13,7 +13,6 @@ Portfolio personal en una sola página, bilingüe (español / inglés) y con tem
 ```
 .
 ├── index.html          # Estructura de la página
-├── favicon.svg         # Ícono de la pestaña
 ├── src/
 │   ├── input.css       # Fuente de Tailwind: tokens de color, tema y animaciones
 │   └── main.js         # Traducciones, cambio de idioma, tema y menú móvil
